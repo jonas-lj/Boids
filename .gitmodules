@@ -1,0 +1,3 @@
+[submodule "Ruffini"]
+	path = Ruffini
+	url = https://github.com/jonas-lj/Ruffini
