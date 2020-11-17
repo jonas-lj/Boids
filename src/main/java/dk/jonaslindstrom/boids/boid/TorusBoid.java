@@ -70,7 +70,7 @@ public class TorusBoid extends MyBoid<Vector2D> {
 
       double y = location.getY();
       y = ensure(y, v -> v >= 0, v -> v + torus.getHeight());
-      y = ensure(y, v -> v < torus.getWidth(), v -> v - torus.getHeight());
+      y = ensure(y, v -> v < torus.getHeight(), v -> v - torus.getHeight());
       return new Vector2D(x, y);
     }
     return location;
